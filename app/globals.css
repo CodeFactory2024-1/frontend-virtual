@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.btn-select{
+  width: max;
+  margin: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 5px;
+  transition: 0.3s;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.btn-search {
+  background-color: #2196f3;
+  width: max;
+  color: white;
+  margin: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 5px;
+  transition: 0.3s;
+  font-weight: bold;
+  font-size: 18px;
+}
+.btn-search:hover {
+  opacity: 0.7;
+}
+
+.label {
+  display: inline;
+  position: relative;
+  top: 10px;
+  left: 10px;
+  background-color: white;
+  text-align: center;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+.r-boton {
+  display: none;
+}
+
+.radio-custom {
+  display: inline-block;
+  text-align: center;
+  border: 2px solid #2196f3;
+  border-radius: 30px; /* Esto hace que el botón se vea redondo */
+  cursor: pointer;
+  padding: 8px;
+  color: #2196f3;
+  font-size: 14px;
+}
+
+.r-boton:checked + .radio-custom {
+  background-color: #2196f3;
+  color: white;
+}
+
+.placeholder-black::placeholder {
+  color: black/* Color negro con opacidad al 50% */
+}
+.footerr {
+  margin-top: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
